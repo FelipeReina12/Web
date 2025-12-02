@@ -41,8 +41,14 @@ body {
 }
 
 .navegacion-principal {
+  /* margin: 10rem;  margin es del elemento hacia afuera */
+  padding: 1rem; /*padding es engordar el elemento */
+  display: flex;  /*flex es para alinear elementos en fila o columna */
+  justify-content: space-between; /*espacio entre los elementos */
 }
 
 .navegacion-principal a {
+  color: var(--blanco);
   background-color: var(--primario);
+  text-decoration: none;
 }
