@@ -234,8 +234,8 @@ h3 {
   height: 70px;
 }
 
-@media (min-width: 200px) {
-  /*Se va a ver una sola columna en pantallas pequeñas */
+@media (min-width: 768px) {
+  /*Se va a ver 3 columnas en pantallas medianas y grandes */
   .servicios {
     display: grid;
     /* grid-template-columns: 300px 300px;  antiguo*/
