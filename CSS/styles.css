@@ -18,10 +18,10 @@ html {
 }
 
 /*Scroll Snap*/
-.servicios,
+.titulo
 .navegacion-principal,
+.servicios,
 .formulario,
-.titulo,
 .footer {
   /*para que se muestre en todas las secciones sin que se quede parado en una sola*/
   scroll-snap-align: center; /*para que la sección de servicios se centre al hacer scroll */
